@@ -12,14 +12,15 @@ public class SayiBulma {
 		Random rast = new Random();
 		int rastSayi = rast.nextInt(5);
 
-		System.out.println("Sayı gir ");
-		int sayiTahmin = input.nextInt();
+//		System.out.println("Sayı gir ");
+//		int sayiTahmin = input.nextInt();
 
-		while (rastSayi != sayiTahmin) {
+//		while (rastSayi != sayiTahmin) {
+		while(true){
 
-			System.out.println("Yanlış tahmin");
+//			System.out.println("Yanlış tahmin");
 
-			System.out.println("Tekrar sayı gir ");
+			System.err.println("Tekrar sayı gir ");
 
 			int tekrarSayiTahmin = input.nextInt();
 
