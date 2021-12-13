@@ -34,7 +34,7 @@ public class Main {
 		UserCheckService userCheckService = new MernisCheckService();
 
 		GameSaleManager gameSaleManager = new GameSaleManager();
-		if (userCheckService.checkIfRealUser(user1) == true) {
+		if (userCheckService.checkIfRealUser(user1)) {
 			gameSaleManager.sell(user1, game1, discount1);
 		} else {
 			System.out.println("Kullanýcý kimliði doðrulanamadýðý için alýþveriþ gerçekleþtirilemedi");

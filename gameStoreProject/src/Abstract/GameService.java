@@ -2,11 +2,6 @@ package Abstract;
 
 import Entities.Game;
 
-public interface GameService {
+public interface GameService extends MyCustomService<Game> {
 
-	void add(Game game);
-
-	void update(Game game);
-
-	void delete(Game game);
 }
